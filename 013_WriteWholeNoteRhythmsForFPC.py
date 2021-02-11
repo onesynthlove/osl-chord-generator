@@ -39,7 +39,7 @@ def writeStreamPatternToMidiFile(_stream) :
         print("writing stream for progression " + filePath )
         exportStream.write("midi", filePath)
     else:
-        print(filePath + " already exists. Skipping write operation.")
+        print(filePath + " already exists. Skipping write operation.") 
     return
 
 # keysIteration = ["C#", "D", "E-", "E", "F", "G-", "G", "A-", "A", "B-", "B", "C"]
